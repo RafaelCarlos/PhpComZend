@@ -10,5 +10,9 @@
     "require": {
         "php": ">=5.5",
         "zendframework/zendframework": "~2.5"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "doctrine/doctrine-orm-module": "dev-master"
     }
 }
