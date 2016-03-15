@@ -92,4 +92,16 @@ return array(
             ),
         ),
     ),
+    'doctrine' => array(
+        'driver' => array(
+            'livraria' => array(
+                'paths' => array(__DIR__ . '../src/Livraria/Entity')
+            ),
+            'orm_default' => array(
+                'drivers' => array(
+                    'Livraria\Entity' => 'livraria'
+                ),
+            ),
+        ),
+    ),
 );
